@@ -1,7 +1,7 @@
 # Vehicle Re-Identification Dataset
 ## Dataset Description
 
-The Vehicle Re-ID dataset consists of vehicle images captured from **two different camera perspectives** (cam1 and cam2), enabling researchers to develop and evaluate algorithms for matching the same vehicle across different viewpoints.
+The Vehicle Re-ID dataset consists of vehicle images captured from **two different camera perspectives**, enabling researchers to develop and evaluate algorithms for matching the same vehicle across different viewpoints.
 
 ### Key Features:
 - **Multi-camera setup**: Images from 2 different camera angles
@@ -13,22 +13,13 @@ The Vehicle Re-ID dataset consists of vehicle images captured from **two differe
 
 | Split | Total Images | Vehicle Types | File Lists |
 |-------|-------------|---------------|------------|
-| **Training** | 1,135 images | Car: 282, Motorcycle: 700, Truck: 139, Bus: 14 | `train.txt` (907 entries) |
-| **Testing** | 82 images | Mixed vehicle types | `test.txt` (83 entries) |
-| **Validation** | - | Mixed vehicle types | `val.txt` (228 entries) |
-
-### Vehicle Type Distribution (Training Set):
-- 🚗 **Cars**: 282 images (141 unique vehicles)
-- 🏍️ **Motorcycles**: 700 images (350 unique vehicles)  
-- 🚛 **Trucks**: 139 images (~70 unique vehicles)
-- 🚌 **Buses**: 14 images (7 unique vehicles)
+| **Training** | 1,135 images | Car: 141, Motorcycle: 350, Truck: 69, Bus: 7 | `train.txt` (907 entries), `val.txt` (228 entries) |
+| **Testing** | 82 images | Car: 9, Motorcycle: 17, Truck: 10, Bus: 5 | `test.txt` (83 entries) |
 
 ## Folder Structure
 
 ```
 Vehicle-Re-ID-Dataset/
-├── README.md                    # This file
-├── LICENSE                      # Apache License 2.0
 ├── train.txt                    # Training set image list
 ├── test.txt                     # Test set image list  
 ├── val.txt                      # Validation set image list
@@ -68,7 +59,3 @@ For questions or collaboration, please contact any of the team members above.
 ## License
 
 This dataset is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
-
-
-
-
