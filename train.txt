@@ -354,7 +354,6 @@ motorcycle_0086_cam1.jpg
 motorcycle_0086_cam2.jpg
 truck_0008_cam1.jpg
 truck_0008_cam2.jpg
-truck_0072_cam2.jpg
 car_0104_cam1.jpg
 car_0104_cam2.jpg
 motorcycle_0302_cam1.jpg

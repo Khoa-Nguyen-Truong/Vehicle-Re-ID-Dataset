@@ -13,8 +13,8 @@ The Vehicle Re-ID dataset consists of vehicle images captured from **two differe
 
 | Split | Total Images | Vehicle Types | File Lists |
 |-------|-------------|---------------|------------|
-| **Training** | 1,135 images | Car: 141, Motorcycle: 350, Truck: 69, Bus: 7 | `train.txt` (907 entries), `val.txt` (228 entries) |
-| **Testing** | 82 images | Car: 9, Motorcycle: 17, Truck: 10, Bus: 5 | `test.txt` (83 entries) |
+| **Training** | 1,134 images | Car: 141, Motorcycle: 350, Truck: 69, Bus: 7 | `train.txt` (906 entries), `val.txt` (228 entries) |
+| **Testing** | 140 images | Car: 17, Motorcycle: 29, Truck: 19, Bus: 7 | `test.txt` (140 entries) |
 
 ## Folder Structure
 
